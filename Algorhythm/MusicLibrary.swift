@@ -54,6 +54,9 @@ struct MusicLibrary {
             "title": "Futbal Remix",
             "description": "There’s nothing like the world’s game. Kick around the field with this eclectic playlist from around the world. Futbal for life.",
             "icon": "ball.pdf",
+            "largeIcon": "ball_large.pdf",
+            "backgroundColor": ["red": 255, "green": 102, "blue": 153, "alpha": 1.0],
+            "artists": ["Shakira", "Santana", "Wyclef Jean", "Aloe Blacc", "Pitbull", "Enrique Iglesias", "Ricky Martin"]
         ]
     ]
 }
