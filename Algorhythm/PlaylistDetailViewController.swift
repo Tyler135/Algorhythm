@@ -20,8 +20,6 @@ class PlaylistDetailViewController: UIViewController {
     @IBOutlet weak var playlistArtist1: UILabel!
     @IBOutlet weak var playlistArtist2: UILabel!
     
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -34,8 +32,7 @@ class PlaylistDetailViewController: UIViewController {
             playlistArtist0.text = playlist!.artists[0]
             playlistArtist1.text = playlist!.artists[1]
             playlistArtist2.text = playlist!.artists[2]
-            
-       
+
         }
         
     }
@@ -44,8 +41,6 @@ class PlaylistDetailViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
 
 }
 
